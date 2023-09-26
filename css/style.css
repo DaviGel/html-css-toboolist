@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#logo, #titolo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#logo {
+    margin: 10px 0 10px 20px;
+}
