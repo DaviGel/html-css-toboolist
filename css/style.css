@@ -1,11 +1,53 @@
+/****************
+RESET
+****************/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/****************
+COMMON
+****************/
+
+.padd {
+    padding: 15px 50px 10px;
+}
+
+.padd2 {
+    padding-bottom: 30px;
+    margin-left: -20px;
+}
+
+.span-style {
+    border-radius: 10px;
+    margin-left: 5px;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
+}
+
+/****************
+BODY
+****************/
+
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #f6f8f9;
+}
+
+/****************
+HEADER
+****************/
+
+header {
+    background-color: #ffffff;
+}
+
+#logo {
+    margin: 10px 0 10px 100px;
 }
 
 #logo, #titolo {
@@ -13,6 +55,100 @@ body {
     vertical-align: middle;
 }
 
-#logo {
-    margin: 10px 0 10px 20px;
+/****************
+MAIN
+****************/
+
+.container {
+    width: 70%;
+    margin: 40px auto;
+    background-color: #ffffff;
+}
+
+main button {
+    color: white;
+    padding: 6px 15px;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+}
+
+.buttons {
+    border-bottom: 1px solid #F6F8F9;
+}
+
+#button1 {
+    background-color: #14aaf5;
+    border: 1px solid transparent;
+}
+
+#button2 {
+    background-color: #ffffff;
+    color: #c5ccd1;
+    border: 1px solid #c5ccd1;
+}
+
+ul {
+    list-style: none;
+    padding: 20px;
+}
+
+ul li {
+    padding-bottom: 10px;
+}
+
+.d-arrow::before {
+    content: '\25BC';
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.check::before {
+    content: '\2713';
+    border: 1px solid green;
+    color: green;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.error::before {
+    content: '\2717';
+    border: 1px solid red;
+    color: red;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.editorial {
+    content: 'Editorial';
+    background-color: #14aaf5;
+}
+
+.q1-goals {
+    content: 'Q1 Goals';
+    background-color: #ab5de6;
+}
+
+.recruiting {
+    content: 'Recruiting';
+    background-color: #2cc6ab;
+}
+
+.mobile {
+    content: 'Mobile';
+    background-color: #ff9b00;
+}
+
+.website {
+    content: 'Website';
+    background-color: #ec4a9d;
+}
+
+.sales {
+    content: 'Sales';
+    background-color: #a3d116;
 }
