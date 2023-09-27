@@ -116,7 +116,7 @@ ul li {
 }
 
 .error::before {
-    content: '\2717';
+    content: '\2715';
     border: 1px solid red;
     color: red;
     border-radius: 50%;
