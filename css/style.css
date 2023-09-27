@@ -124,31 +124,25 @@ ul li {
 }
 
 .editorial {
-    content: 'Editorial';
     background-color: #14aaf5;
 }
 
 .q1-goals {
-    content: 'Q1 Goals';
     background-color: #ab5de6;
 }
 
 .recruiting {
-    content: 'Recruiting';
     background-color: #2cc6ab;
 }
 
 .mobile {
-    content: 'Mobile';
     background-color: #ff9b00;
 }
 
 .website {
-    content: 'Website';
     background-color: #ec4a9d;
 }
 
 .sales {
-    content: 'Sales';
     background-color: #a3d116;
 }
