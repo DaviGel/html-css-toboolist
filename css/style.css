@@ -73,6 +73,7 @@ main button {
     border-radius: 5px;
     font-size: 11px;
     border: none;
+    cursor: pointer;
 }
 
 .buttons {
@@ -81,7 +82,7 @@ main button {
 
 #button1 {
     background-color: #14aaf5;
-    border: 1px solid transparent;
+    border: 1px solid #14aaf5;
 }
 
 #button2 {
