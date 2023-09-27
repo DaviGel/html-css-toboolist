@@ -101,8 +101,7 @@ ul li {
 }
 
 .d-arrow::before {
-    content: '\25BC';
-    font-size: 15px;
+    content: '\25BE';
     margin-right: 5px;
 }
 
